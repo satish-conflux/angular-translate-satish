@@ -10,7 +10,7 @@
   "_resolution": {
     "type": "version",
     "tag": "0.0.1",
-    "commit": "334ab9ccf6990881537367b9e9131171dd07f253"
+    "commit": "5b4d88c883f7a3f8517582534b968193d34a84b1"
   },
   "_source": "git://github.com/confluxtoo/angular-translate-finflux.git",
   "_target": "0.0.1",
