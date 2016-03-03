@@ -200,15 +200,15 @@ angular.module('pascalprecht.translate').provider('$translate', [
 
           // Loads the tenant specific lables and these lables will override the default lables
           var tenatLocale = "";
+          var tenatLocaleData = {};
+          
           tenatLocale = $preferredTenant + "-" + key;
 
           $injector.get($loaderFactory)(angular.extend($loaderOptions, { key: tenatLocale })).then(function (dataT) {
                 tenatLocaleData = dataT;
               },
               function(key){
-                $rootScope.$broadcast('$translateLoadingError');
-                deferred.reject(key);
-                $rootScope.$broadcast('$translateLoadingEnd');
+                  console.log("Tenant specific file is not found!");
               });
 
           $injector.get($loaderFactory)(angular.extend($loaderOptions, { key: key })).then(function (data) {
