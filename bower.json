@@ -1,8 +1,8 @@
 {
-  "name": "angular-translate-finlfux",
-  "version": "1.0.2",
+  "name": "angular-translate-finflux",
+  "version": "0.0.2",
   "main": "./angular-translate.js",
   "dependencies": {
-    "angular": "1.0.7"
+    "angular": "1.2.29"
   }
 }
