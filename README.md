@@ -1,9 +1,9 @@
 # bower-angular-translate
 
-angular-translate-finflux bower package
+angular-translate-satish bower package
 
 ### Installation
 
 ````
-$ bower install angular-translate-finflux
+$ bower install angular-translate-satish
 ````
